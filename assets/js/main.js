@@ -513,7 +513,8 @@ var Main = function() {
 				var swiperH = new Swiper(_this, {
 					pagination : _this.find('.swiper-pagination-h'),
 					paginationClickable : true,
-					spaceBetween : 50
+					loop : true,
+					autoplay : 3000
 				});
 			});
 		}
