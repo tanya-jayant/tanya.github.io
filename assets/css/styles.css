@@ -11476,3 +11476,23 @@ div.portfolio-info {
   margin-right: 2px;
   padding: 6px 15px;
 }
+/* ---------------------------------------------------------------------- */
+/*  Table
+/* ---------------------------------------------------------------------- */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed
+}
+
+td, th {
+  border: 1px solid #172d91;
+  text-align: center;
+  padding: 8px;
+}
+
+ tr:nth-child(even) {
+  background-color: #172d91;
+  color:whitesmoke 
+} 
