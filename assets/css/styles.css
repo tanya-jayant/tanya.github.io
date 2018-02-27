@@ -60,7 +60,7 @@ html {
 }
 
 body {
-  color: #8e8e93;
+  color: #4b4b4b;
   direction: ltr;
   overflow-x: hidden;
   height: 100%;
@@ -11481,18 +11481,21 @@ div.portfolio-info {
 /* ---------------------------------------------------------------------- */
 table {
   font-family: arial, sans-serif;
-  border-collapse: collapse;
+  border:3px solid #172d91;
+  border-color: #1e90ff;
+  /* border-collapse: collapse; */
   width: 100%;
   table-layout: fixed
+  
 }
 
 td, th {
-  border: 1px solid #172d91;
+  border: none;
   text-align: center;
   padding: 8px;
 }
 
- tr:nth-child(even) {
+ /* tr:nth-child(even) {
   background-color: #172d91;
   color:whitesmoke 
-} 
+}  */
