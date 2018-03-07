@@ -678,7 +678,7 @@ header > .navbar {
   line-height: inherit;
   display: block;
   margin-right: 5px;
-  color: #400dfc;
+  color: #007AFF;
   text-transform: uppercase;
   -moz-transition: height 0.3s;
   -o-transition: height 0.3s;
@@ -701,7 +701,7 @@ header > .navbar {
   color: #333333;
 }
 .navbar > .container .navbar-nav > li.active > a, .navbar > .container .navbar-nav > li.active > a:hover, .navbar > .container .navbar-nav > li.active > a:focus, .navbar > .container .navbar-nav > li.active > a:active {
-  color: #400dfc;
+  color: #007AFF;
   background: none !important;
   font-weight: 600;
 }
@@ -986,7 +986,7 @@ img {
 .main-content {
   min-height: 100%;
   position: relative;
-  padding-bottom: 400px;
+  padding-bottom: 300px;
   padding-top: 90px;
 }
 @media (min-width: 992px) {
@@ -1029,10 +1029,10 @@ img {
   right: 0;
   left: 0;
   position: absolute;
-  font-size: 12px;
+  font-size: 14px;
   background: #363839;
   padding-top: 40px;
-  height: 400px;
+  height: 300px;
 }
 @media (max-width: 991px) {
   .app-content > footer {
@@ -1042,7 +1042,7 @@ img {
 }
 .app-content > footer .footer-inner {
   padding: 0 20px;
-  line-height: 400px;
+  line-height: 300px;
 }
 @media (max-width: 991px) {
   .app-content > footer .footer-inner {
