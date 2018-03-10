@@ -853,8 +853,8 @@ header > .navbar {
 }
 
 .mega-menu .dropdown-menu {
-  left: 20px !important;
-  right: 20px !important;
+  left: 50px !important;
+  right: 50px !important;
   margin: 0 !important;
 }
 
