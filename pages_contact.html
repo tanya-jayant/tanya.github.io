@@ -184,12 +184,12 @@
 							<!-- end: NAVBAR -->
 					</div>
 					<!-- end: TOP NAVIGATION CONTAINER -->
-					<div id="overlay-search">
+					<!-- <div id="overlay-search">
 						<form method="get" action="search.html">
 							<input type="text" placeholder="Type &amp; Hit Enter.." value="" class="form-control" name="q">
 						</form>
 						<a href="#" class="pull-right margin-right-20 close-search mobile-button" data-toggle-target="body" data-toggle-class="search-open"> <i class="ti-close"></i> </a>
-					</div>
+					</div> -->
 				</div>
 			</header>
 			<!-- end: HEADER -->
@@ -218,7 +218,7 @@
 										<strong>Error!</strong> There was an error sending your message.
 									</div>
 									<!-- <h2>Send Us a Message</h2> -->
-									<form novalidate="novalidate" action="" id="contactForm" type="post">
+									<form novalidate="novalidate" action="mailto:contact@mynetsec.com" id="contactForm" type="post">
 										<div class="row">
 											<div class="form-group">
 												<div class="col-md-6">
@@ -227,7 +227,7 @@
 												</div>
 												<div class="col-md-6">
 													<label> Your email address <span class="symbol required"></span> </label>
-													<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="email" id="email">
+													<input type="email" value="" data-msg-required="Please enter your email address." data-msg-email="Please enter a valid email address." maxlength="100" class="form-control" name="mail" id="email">
 												</div>
 											</div>
 										</div>
@@ -243,13 +243,13 @@
 											<div class="form-group">
 												<div class="col-md-12">
 													<label> Message <span class="symbol required"></span> </label>
-													<textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="message" id="message"></textarea>
+													<textarea maxlength="5000" data-msg-required="Please enter your message." rows="10" class="form-control" name="body" id="body"></textarea>
 												</div>
 											</div>
 										</div>
 										<div class="row">
 											<div class="col-md-12">
-												<button data-caption-delay="900" data-caption-class="fadeIn" class="btn btn-primary margin-top-15 opacity-0 btn-wide btn-scroll btn-scroll-top fa-arrow-right animated fadeIn" type="button">
+												<button data-caption-delay="900" data-caption-class="fadeIn" class="btn btn-primary margin-top-15 opacity-0 btn-wide btn-scroll btn-scroll-top fa-arrow-right animated fadeIn" type="submit">
 													<span>Send Message</span>
 												</button>
 											</div>
