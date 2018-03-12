@@ -64,7 +64,7 @@ body {
   direction: ltr;
   overflow-x: hidden;
   height: 100%;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Josephine;
   font-size: 15px;
   padding: 0;
   margin: 0;
@@ -498,6 +498,7 @@ header > .navbar {
   border-radius: 0;
   border: none;
   border-bottom: 1px solid #efefef;
+  font-family: Arial, Helvetica, sans-serif;
 }
 @media (min-width: 992px) {
   .navbar {
