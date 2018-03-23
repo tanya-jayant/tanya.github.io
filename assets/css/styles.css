@@ -980,6 +980,12 @@ img {
 .container {
   padding: 2px 16px;
 }
+/* @media screen and (max-width: 600px){
+
+  [class*="col-"] {
+    padding-bottom: 25px;
+  }
+} */
 
 /* ---------------------------------------------------------------------- */
 /*  Main Content
