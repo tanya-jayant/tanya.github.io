@@ -9240,6 +9240,30 @@ figure.effect-goliath:hover p {
 .icons-effect:hover .mask {
   opacity: 1;
   background-color: rgba(0, 0, 0, 0.9);
+  padding-top: 50px;
+}
+.team-member-description{
+  padding-top: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+@media (max-width:600px){
+  .icons-effect:hover .mask{
+    padding-top:15px;
+  }
+  .team-member-description{
+    padding-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .icons-effect img{
+    height: 410px;
+  }
+  #seminar img{
+    max-height: 137px;
+  }
+}
+  
 }
 .icons-effect:hover a.icon {
   opacity: 1;
