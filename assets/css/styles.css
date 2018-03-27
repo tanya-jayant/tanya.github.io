@@ -323,6 +323,33 @@ h5.over-title {
   }
 }
 
+/* #scroll-down {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  bottom: 40px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  font-size: 20px;
+  height: 40px;
+  left: auto;
+  line-height: 36px;
+  position: fixed;
+  right: 30px;
+  text-align: center;
+  top: auto;
+  width: 40px;
+  z-index: 299;
+}
+#scroll-down:hover {
+  background-color: #007AFF;
+}
+@media (max-width: 991px) {
+  #scroll-down {
+    display: none !important;
+  }
+} */
+
 header {
   border: medium none;
   margin-bottom: 0;
@@ -7958,6 +7985,19 @@ Social Icons
   left: 0;
   top: -100%;
 }
+/* .btn-scroll.btn-scroll-down:hover span {
+  -moz-transform: translateY(300%);
+  -ms-transform: translateY(300%);
+  -webkit-transform: translateY(300%);
+  transform: translateY(300%);
+}
+.btn-scroll.btn-scroll-down:hover:before {
+  bottom: 0;
+}
+.btn-scroll.btn-scroll-down:before {
+  left: 0;
+  bottom: -100%;
+} */
 .btn-scroll.btn-scroll-left:hover span {
   -moz-transform: translateX(200%);
   -ms-transform: translateX(200%);
