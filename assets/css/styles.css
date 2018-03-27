@@ -8001,12 +8001,12 @@ Social Icons
   bottom: -100%;
 } */
 .ct-btn-scroll {
-  padding-bottom:500px;
+  /* padding-bottom:500px; */
   width: 49px;
   height: 49px;
   position: absolute;
-  bottom: 30px;
-  top:500px;
+  bottom: 100px;
+  top:0;
   right:0; 
   left:1250px;
   margin: auto;
