@@ -9257,6 +9257,7 @@ figure.effect-goliath:hover p {
     margin-left: 5px;
   }
   .icons-effect img{
+    width: 100%;
     height: 410px;
   }
   #seminar img{
