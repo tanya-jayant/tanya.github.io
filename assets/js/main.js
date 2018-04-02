@@ -483,7 +483,7 @@ var Main = function() {
 					pagination : _this.find('.swiper-pagination'),
 					paginationClickable : _this.find('.swiper-pagination'),
 					loop : true,
-					autoplay : 3000,
+					autoplay : 5000,
 					nextButton : _this.find('.swiper-button-next'),
 					prevButton : _this.find('.swiper-button-prev')
 
@@ -499,7 +499,7 @@ var Main = function() {
 					pagination : _this.find('.swiper-pagination'),
 					paginationClickable : _this.find('.swiper-pagination'),
 					loop : true,
-					autoplay : 3000,
+					autoplay : 5000,
 					direction : 'vertical'
 
 				});
@@ -514,7 +514,7 @@ var Main = function() {
 					pagination : _this.find('.swiper-pagination-h'),
 					paginationClickable : true,
 					loop : true,
-					autoplay : 3000
+					autoplay : 5000
 				});
 			});
 		}
@@ -538,7 +538,7 @@ var Main = function() {
 					pagination : _this.find('.swiper-pagination'),
 					paginationClickable : _this.find('.swiper-pagination'),
 					loop : true,
-					autoplay : 3000,
+					autoplay : 5000,
 					nextButton : _this.find('.swiper-button-next'),
 					prevButton : _this.find('.swiper-button-prev'),
 					effect : 'fade'

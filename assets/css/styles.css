@@ -1053,7 +1053,12 @@ img {
 #main-slider + .app-content .main-content {
   padding-top: 0;
 }
-
+@media (max-width: 600px) {
+  .slider-parallax .slider-caption {
+    height: 500px;
+    width: auto;
+  }
+}
 /* ---------------------------------------------------------------------- */
 /*  Footer
 /* ---------------------------------------------------------------------- */
